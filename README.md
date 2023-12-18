@@ -1,30 +1,18 @@
-[![Watch tutorial here](https://img.youtube.com/vi/sUKptmUVIBM/0.jpg)](https://youtu.be/sUKptmUVIBM)
+# Bhishman's Portfolio
 
-# [Watch video here](https://youtu.be/sUKptmUVIBM)
+Welcome to the online portfolio of Bhishman Desai!
 
-## What you will learn
+## Get in Touch
 
-- Latest Next.js 13 features
-- Next.js App Router
-- Next.js Server Actions
-- Client & Server Components
-- TypeScript (Beginner & Intermediate)
-- Tailwind CSS
-- Context API
-- Advanced Animations with Framer Motion
-- React.Email & Resend
-- Custom React hooks
-- Fresh, modern UI design
-- Light & Dark mode
-- Responsive website
+I'm always open to new opportunities, collaborations, or just a friendly chat. Feel free to reach out to me through email or connect with me on social media:
 
-## Important
+- [LinkedIn](https://ca.linkedin.com/in/bhishman-desai)
+- [ X](https://twitter.com/desaibhishman)
+- [Instagram](https://www.instagram.com/bhishman_)
+- [Email](mailto:bhishman@dal.ca)
 
-If you want to be a professional developer, you have to know the fundamentals like JavaScript and CSS really well. I highly recommend you go through my [Professional JavaScript](https://bytegrad.com/courses/professional-javascript) and [Professional CSS](https://bytegrad.com/courses/professional-css) courses.
+## Let's Connect!
 
-I'm close to releasing a complete React & Next.js course. Get on the email list to receive early-bird pricing: [link](https://email.bytegrad.com/).
+Thank you for taking the time to explore my portfolio. I'm excited about the possibilities that lie ahead, and I look forward to connecting with fellow enthusiasts, collaborators, and potential employers. Let's create something amazing together!
 
-## Setup
-
-1. Add RESEND_API_KEY environment variable in .env.local
-2. In the send-email.ts action file, change the "to" email to your own email
+---
