@@ -13,7 +13,7 @@ export const metadata = {
   title: "Bhishman Desai | Portfolio",
   description: "Bhishman Desai Software Developer with 2 years of experience.",
   verification: {
-    google: "9audUbp8qzL5bVIZpRqUSlcf8Tc6N8PnfwVF_yi0Rx0"
+    google: process.env.GOOGLE_SEARCH_CONSOLE_TOKEN
   }
 };
 
