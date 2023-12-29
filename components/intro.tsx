@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowDown, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
-import { FaGithubSquare } from "react-icons/fa";
+import { FaGithubSquare, FaBlog  } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
@@ -111,6 +111,14 @@ export default function Intro() {
           target="_blank"
         >
           <FaGithubSquare />
+        </a>
+
+        <a
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          href="https://bhishman-blogs.vercel.app"
+          target="_blank"
+        >
+          <FaBlog />
         </a>
       </motion.div>
     </section>
