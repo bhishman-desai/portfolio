@@ -91,6 +91,12 @@ export const projectsData = [
     imageUrl: simmerprofile,
     projectUrl: "https://simmer.io/@bhishman",
   },
+  {
+    title: "Canadian Currency Calculator",
+    description: "In my initial venture into part-time work in Canada, I took on the role of a Concierge. One of my responsibilities involved counting the float and reporting it to the manager at the end of each shift. As a newcomer to Canada, I encountered challenges in both identifying the currency and efficiently counting the float. Motivated by this experience, I embarked on my first independent project using Next.js technology – a simple yet effective currency calculator app designed to streamline the process of counting the cash box float. This project proved to be an invaluable learning experience, allowing me to grasp fundamental concepts within the context of a straightforward application and real-world use case.",
+    tags: ["Next JS"],
+    projectUrl: "https://github.com/bhishman-desai/currency-calculator"
+  }
 ] as const;
 
 export const skillsData = [
