@@ -1,8 +1,11 @@
 import React from "react";
-import { FaAngular, FaGraduationCap, FaJava } from "react-icons/fa";
-import his from "@/public/his.png";
-import riverbed from "@/public/riverbed.png";
+import { FaAngular, FaGraduationCap, FaJava, FaCogs } from "react-icons/fa";
+import awsLambdaGenerator from "@/public/aws-lambda-generator.png"
 import simmerprofile from "@/public/simmerprofile.png";
+import homelessSupport from "@/public/homeless-support.png";
+import lightweigthDBMS from "@/public/lightweight-dbms.png";
+import jobVerse from "@/public/job-verse.png";
+import thriftHarbour from "@/public/thrift-harbour.png";
 import canadianCurrencyCalculator from "@/public/canadian-currency-calculator.png";
 
 export const links = [
@@ -61,14 +64,22 @@ export const experiencesData = [
     title: "Masters in Applied Computer Science",
     location: "Dalhousie University, Canada",
     description:
-      "I am currently serving as a Student Engagement Ambassador at the Office of Advancement, actively promoting student funding.",
+      "As a Student Engagement Ambassador at the Digital Engagement Centre, Office of Advancement, Dalhousie University, I successfully raised $65,000 by engaging with alumni to gather gifts and funds. My role involved fostering relationships with past students, promoting student funding, and encouraging continued support for the university. Additionally, I serve as a Teaching Assistant for CSCI 5100, where I help bridge the gap for students in effective communication and formal writing.",
     icon: React.createElement(FaGraduationCap),
     date: "Sep. 2023 - present",
+  },
+  {
+    title: "Puppet Academy (SaySo Communications)",
+    location: "Halifax, Canada",
+    description:
+      "As a Solutions Architect, I automated backend infrastructure using Terraform on AWS, enhancing scalability and reliability through Infrastructure as Code (IaC). I developed the frontend for the Puppet Academy application with Next.js, creating a responsive user interface for performance insights. I optimized CI/CD pipelines for both frontend and backend, using AWS Amplify and GitLab runners on EC2, respectively. This streamlined deployment workflows, reduced errors, and improved release speed. Additionally, I managed and scaled the Puppet Academy website on EC2, ensuring high availability and performance during peak times.",
+    icon: React.createElement(FaCogs),
+    date: "May. 2024 - present",
   },
 ] as const;
 
 export const projectsData = [
-  {
+  /*{
     title: "HIS",
     description:
       "As an Angular developer, I contributed to a cloud-native Healthcare Information System. This platform optimizes end-to-end healthcare operations, from patient registration to discharge, and includes supply chain management. My role focused on enhancing the user interface, ensuring a seamless and efficient experience for healthcare providers.",
@@ -83,6 +94,30 @@ export const projectsData = [
     tags: ["Java", "JQuery", "Solr"],
     imageUrl: riverbed,
     projectUrl: "https://support.riverbed.com/",
+  },*/
+  {
+    title: "AWS Lambda Generator",
+    description:
+      "Previously, generating layers manually for Lambda dependencies was time-consuming and often led to compatibility issues. This application automates the process: users select the Python runtime and architecture, enter package names, and the backend handles building the Docker image, installing packages, and providing a downloadable zip file. Streamline your AWS Lambda Layer creation with a single click using AWS Layer Generator.",
+    tags: ["React", "Node js (Express)", "Docker", "AWS"],
+    imageUrl: awsLambdaGenerator,
+    projectUrl: "https://github.com/bhishman-desai/aws-layer-generator",
+  },
+  {
+    title: "Homeless Support",
+    description:
+      "After moving to Canada, I noticed a significant increase in homelessness, particularly post-COVID. To contribute to addressing this issue, I developed a software solution designed to bridge the gap between the government, homeless individuals, and donors. This platform facilitates better coordination and communication, allowing donors to efficiently contribute to government programs that support the homeless. The goal is to streamline assistance efforts and enhance the effectiveness of resources dedicated to helping those in need.",
+    tags: ["JAVA", "MySQL"],
+    imageUrl: homelessSupport,
+    projectUrl: "https://github.com/bhishman-desai/homeless-support",
+  },
+  {
+    title: "Lightweight Database Management System",
+    description:
+      "During my Data Management and Warehousing course in my second term, I became curious about how MySQL efficiently manages, stores, and retrieves data while maintaining ACID properties. This curiosity led me to dive deep into the subject, researching the fundamentals of database management. Through thorough research, I solidified my understanding and realized that creating a lightweight database management system isn't as daunting as it seems if designed thoughtfully from the start. I then developed a DBMS that supports basic DDL and DML commands, complete with transaction support.",
+    tags: ["JAVA"],
+    imageUrl: lightweigthDBMS,
+    projectUrl: "https://github.com/bhishman-desai/lightweight-dbms",
   },
   {
     title: "Game Dev Profile",
@@ -100,19 +135,36 @@ export const projectsData = [
     imageUrl: canadianCurrencyCalculator,
     projectUrl: "https://github.com/bhishman-desai/currency-calculator",
   },
+  {
+    title: "Thrift Harbour",
+    description:
+      "This project addresses the issue of fake or false pricing on online selling platforms. It provides a streamlined solution where products listed by sellers must be approved or rejected by a moderator before becoming available to buyers. This system ensures accurate pricing and builds trust among sellers, buyers, and moderators, creating a more reliable online marketplace.",
+    tags: ["React", "Spring Boot", "MySQL"],
+    imageUrl: thriftHarbour,
+    projectUrl: "https://github.com/bhishman-desai/thrift-harbour",
+  },
+  {
+    title: "Job Verse",
+    description:
+      "This app is designed to assist students in finding jobs by streamlining the job search and posting process. It bridges the gap between students and recruiters, making it easier for both parties to connect. A unique feature of the app is its events section, where recruiters can post events, and students can register to interact directly with recruiters, enhancing networking opportunities and job placement success.",
+    tags: ["React", "Node js (Express)", "MongoDB"],
+    imageUrl: jobVerse,
+    projectUrl: "https://github.com/bhishman-desai/job-verse",
+  },
 ] as const;
 
 export const skillsData = [
-  "JavaScript",
-  "TypeScript",
   "Angular",
-  "React",
-  "Next.js",
-  "Tailwind",
-  "Framer Motion",
-  "JAVA",
-  "Python",
-  "Git",
+  "AWS",
+  "Azure",
+  "GCP",
+  "IaC (Terraform)",
   "Jira",
-  "Unity 3D",
+  "Kubernetes",
+  "Node js (Express)",
+  "Next.js",
+  "React",
+  "Spring Boot",
+  "Unity 3D"
 ] as const;
+
