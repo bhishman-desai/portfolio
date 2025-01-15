@@ -1,5 +1,5 @@
 import React from "react";
-import { FaAngular, FaGraduationCap, FaJava, FaCogs } from "react-icons/fa";
+import {FaAngular, FaGraduationCap, FaJava, FaCogs, FaDatabase} from "react-icons/fa";
 import awsLambdaGenerator from "@/public/aws-lambda-generator.png"
 import simmerprofile from "@/public/simmerprofile.png";
 import homelessSupport from "@/public/homeless-support.png";
@@ -75,6 +75,14 @@ export const experiencesData = [
       "As a Solutions Architect, I automated backend infrastructure using Terraform on AWS, enhancing scalability and reliability through Infrastructure as Code (IaC). I developed the frontend for the Puppet Academy application with Next.js, creating a responsive user interface for performance insights. I optimized CI/CD pipelines for both frontend and backend, using AWS Amplify and GitLab runners on EC2, respectively. This streamlined deployment workflows, reduced errors, and improved release speed. Additionally, I managed and scaled the Puppet Academy website on EC2, ensuring high availability and performance during peak times.",
     icon: React.createElement(FaCogs),
     date: "May. 2024 - present",
+  },
+  {
+    title: "Nova Scotia Health Authority",
+    location: "Halifax, Canada",
+    description:
+        "As a Data Engineer, I work as a bridge between teams, participating in the development of workflows that include predictive models and production pipelines to generate different types of forecasts. I enable interactivity through the development of an efficient front-end that collects inputs from the end users and presents results produced by predictive models.",
+    icon: React.createElement(FaDatabase),
+    date: "Jan. 2024 - present",
   },
 ] as const;
 
