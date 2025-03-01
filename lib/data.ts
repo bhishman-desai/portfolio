@@ -2,11 +2,10 @@ import React from "react";
 import {FaAngular, FaGraduationCap, FaJava, FaCogs, FaDatabase} from "react-icons/fa";
 import awsLambdaGenerator from "@/public/aws-lambda-generator.png"
 import simmerprofile from "@/public/simmerprofile.png";
-import homelessSupport from "@/public/homeless-support.png";
 import lightweigthDBMS from "@/public/lightweight-dbms.png";
 import jobVerse from "@/public/job-verse.png";
 import thriftHarbour from "@/public/thrift-harbour.png";
-import canadianCurrencyCalculator from "@/public/canadian-currency-calculator.png";
+import twitterAIAgent from "@/public/twitter-ai-agent.png";
 
 export const links = [
   {
@@ -104,20 +103,19 @@ export const projectsData = [
     projectUrl: "https://support.riverbed.com/",
   },*/
   {
+    title: "Twitter AI Agent",
+    description:
+      "This is an AI tool that helps you manage your Twitter/X account. It takes your thoughts and turns them into well-written tweets. It’s like having a personal assistant for your social media, making it easier to share your ideas and connect with your audience.",
+    tags: ["Socket.io", "OpenAI", "Node.js"],
+    imageUrl: twitterAIAgent,
+    projectUrl: "https://github.com/bhishman-desai/twitter-ai-agent",
+  },{
     title: "AWS Lambda Generator",
     description:
       "Previously, generating layers manually for Lambda dependencies was time-consuming and often led to compatibility issues. This application automates the process: users select the Python runtime and architecture, enter package names, and the backend handles building the Docker image, installing packages, and providing a downloadable zip file. Streamline your AWS Lambda Layer creation with a single click using AWS Layer Generator.",
     tags: ["React", "Node js (Express)", "Docker", "AWS"],
     imageUrl: awsLambdaGenerator,
     projectUrl: "https://github.com/bhishman-desai/aws-layer-generator",
-  },
-  {
-    title: "Homeless Support",
-    description:
-      "After moving to Canada, I noticed a significant increase in homelessness, particularly post-COVID. To contribute to addressing this issue, I developed a software solution designed to bridge the gap between the government, homeless individuals, and donors. This platform facilitates better coordination and communication, allowing donors to efficiently contribute to government programs that support the homeless. The goal is to streamline assistance efforts and enhance the effectiveness of resources dedicated to helping those in need.",
-    tags: ["JAVA", "MySQL"],
-    imageUrl: homelessSupport,
-    projectUrl: "https://github.com/bhishman-desai/homeless-support",
   },
   {
     title: "Lightweight Database Management System",
@@ -134,14 +132,6 @@ export const projectsData = [
     tags: ["C#", "Unity 3D"],
     imageUrl: simmerprofile,
     projectUrl: "https://simmer.io/@bhishman",
-  },
-  {
-    title: "Canadian Currency Calculator",
-    description:
-      "In my initial part-time role as a Concierge in Canada, I faced challenges counting the float and reporting it to the manager. Struggling to identify the currency, I decided to create my first independent project using Next.js – a currency calculator app for efficiently tallying the cash box float. This experience provided valuable insights, allowing me to grasp fundamental concepts through a straightforward application and real-world use case.",
-    tags: ["Next JS"],
-    imageUrl: canadianCurrencyCalculator,
-    projectUrl: "https://github.com/bhishman-desai/currency-calculator",
   },
   {
     title: "Thrift Harbour",
@@ -165,6 +155,7 @@ export const skillsData = [
   "Angular",
   "AWS",
   "Azure",
+  "Databricks",
   "Django",
   "DynamoDB",
   "GCP",
