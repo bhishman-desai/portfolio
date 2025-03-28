@@ -6,7 +6,7 @@ import lightweigthDBMS from "@/public/lightweight-dbms.png";
 import jobVerse from "@/public/job-verse.png";
 import thriftHarbour from "@/public/thrift-harbour.png";
 import twitterAIAgent from "@/public/twitter-ai-agent.png";
-import iosMemojiGenerator from "@/public/ios-memoji-generator.PNG";
+import iosMemojiGenerator from "@/public/ios-memoji-generator.png";
 
 export const links = [
   {
