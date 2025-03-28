@@ -6,6 +6,7 @@ import lightweigthDBMS from "@/public/lightweight-dbms.png";
 import jobVerse from "@/public/job-verse.png";
 import thriftHarbour from "@/public/thrift-harbour.png";
 import twitterAIAgent from "@/public/twitter-ai-agent.png";
+import iosMemojiGenerator from "@/public/ios-memoji-generator.PNG";
 
 export const links = [
   {
@@ -102,6 +103,13 @@ export const projectsData = [
     imageUrl: riverbed,
     projectUrl: "https://support.riverbed.com/",
   },*/
+  {
+    title: "iOS Style Memoji Generator",
+    description: "An AI-powered web application that generates custom iOS-style Memoji emojis from text descriptions. It leverages Stable Diffusion XL with a specialized emoji LoRA model to create high-quality, stylized emoji artwork. The application supports multiple download formats and features an interactive UI with caching for efficiency.",
+    tags: ["React.js", "Python", "Stable Diffusion XL", "Hugging Face", "ModelBit"],
+    imageUrl: iosMemojiGenerator,
+    projectUrl: "https://github.com/bhishman-desai/ios-memoji-generator"
+  },
   {
     title: "Twitter AI Agent",
     description:
