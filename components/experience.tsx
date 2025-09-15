@@ -64,7 +64,7 @@ export default function Experience() {
         <div className="text-center mt-4">
           <button
             onClick={handleExpand}
-            className="px-4 py-2 hover:bg-gray-200 dark:text-white rounded-md dark:hover:bg-white/20"
+            className="px-4 py-2 hover:bg-gray-200 dark:text-white rounded-md dark:hover:bg-white/20 animate-bounce"
           >
             ▼
           </button>
