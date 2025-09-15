@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import SectionHeading from "./section-heading";
 import {
   VerticalTimeline,
@@ -14,12 +14,18 @@ import { useTheme } from "@/context/theme-context";
 export default function Experience() {
   const { ref } = useSectionInView("Experience");
   const { theme } = useTheme();
+  const [visibleExperiences, setVisibleExperiences] = useState(3);
+
+  /* Function to load more experiences in increments of 3 */
+  const handleExpand = () => {
+    setVisibleExperiences((prev) => prev + 3);
+  };
 
   return (
     <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
       <SectionHeading>My experience</SectionHeading>
       <VerticalTimeline lineColor="">
-        {experiencesData.map((item, index) => (
+        {experiencesData.slice(0, visibleExperiences).map((item, index) => (
           <React.Fragment key={index}>
             <VerticalTimelineElement
               contentStyle={{
@@ -53,6 +59,17 @@ export default function Experience() {
           </React.Fragment>
         ))}
       </VerticalTimeline>
+      {/* Show the button only if there are more experiences to display */}
+      {visibleExperiences < experiencesData.length && (
+        <div className="text-center mt-4">
+          <button
+            onClick={handleExpand}
+            className="px-4 py-2 hover:bg-gray-200 dark:text-white rounded-md dark:hover:bg-white/20"
+          >
+            ▼
+          </button>
+        </div>
+      )}
     </section>
   );
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import {FaAngular, FaGraduationCap, FaJava, FaCogs, FaDatabase} from "react-icons/fa";
+import {FaAngular, FaGraduationCap, FaJava, FaCogs, FaDatabase, FaServer, FaSort, FaNode, FaHatCowboy} from "react-icons/fa";
 import awsLambdaGenerator from "@/public/aws-lambda-generator.png"
 import simmerprofile from "@/public/simmerprofile.png";
 import lightweigthDBMS from "@/public/lightweight-dbms.png";
@@ -37,28 +37,36 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Bachelor of Technology Information Technology",
-    location: "NMIMS University, India",
+    title: "EasyPlatter",
+    location: "Halifax, Canada",
     description:
-      "I achieved Second Place and earned a Certificate of Honour in the 2017–21 Bachelor of Technology Information Technology cohort. Additionally, I received a Merit Certificate for being in the list of meritorious students.",
-    icon: React.createElement(FaGraduationCap),
-    date: "Sep. 2017 - Mar. 2021",
+      "As a Software Engineer, I built on‑prem n8n voice agents (Node.js, WebRTC, OpenAI) for FAQs, health coaching, and HR screening, reducing support response time by 60%. Automated 80% of regression testing with an autonomous QA agent and improved recipe discovery by 45% using Elasticsearch with custom analyzers and fuzzy matching.",
+    icon: React.createElement(FaCogs),
+    date: "July 2025 - Present",
   },
   {
-    title: "Software Engineer",
-    location: "Infogain, India",
+    title: "StarLuv",
+    location: "Newfoundland and Labrador, Canada (Remote)",
     description:
-      "I completed comprehensive training as a software engineer trainee, specializing in SQL, JAVA, Angular, React, Cloud computing, Blockchain, and Testing. In my role on the Riverbed support project, I excelled as a Java developer, enhancing the support portal by adding new features and resolving bugs, ensuring smooth operation and minimizing downtime for clients. I engaged directly with clients to understand their requirements, maintaining clear communication and providing timely updates on project progress. Additionally, I actively contributed to code reviews, offering valuable insights to improve the overall quality and performance of the support portal.",
-    icon: React.createElement(FaJava),
-    date: "Jul. 2021 - Jan. 2023",
+      "As a Back End developer, I built a personalized recommendation engine using OpenSearch Client with OpenAI, resulting in customized clothing suggestions and improved user engagement  by 40%.",
+    icon: React.createElement(FaServer),
+    date: "May 2025 - Present",
   },
   {
-    title: "Software Engineer",
-    location: "BosLeo, India",
+    title: "Nova Scotia Health Authority",
+    location: "Halifax, Canada",
     description:
-      "I played a key role in developing a Healthcare Information System focused on patient data. Utilizing TypeScript and the Angular framework, I optimized user interfaces for seamless interaction with backend responses, resulting in a 30% reduction in HTTP calls. Actively participating in code reviews, I received valuable feedback on coding standards and best practices, while also ensuring clear and organized documentation for project comprehension and future reference.",
-    icon: React.createElement(FaAngular),
-    date: "Jan 2023 - Jul. 2023",
+        "As a Data Engineer Intern, I worked as a bridge between teams, participating in the development of workflows that include predictive models and production pipelines to generate different types of forecasts. I enabled interactivity through the development of an efficient front-end that collects inputs from the end users and presents results produced by predictive models.",
+    icon: React.createElement(FaDatabase),
+    date: "January 2025 - April 2025",
+  },
+  {
+    title: "Puppet Academy (SaySo Communications)",
+    location: "Halifax, Canada",
+    description:
+      "As a Technical Consultant, I automated backend infrastructure using Terraform on AWS, enhancing scalability and reliability through Infrastructure as Code (IaC). I developed the frontend for the Puppet Academy application with Next.js, creating a responsive user interface for performance insights.",
+    icon: React.createElement(FaCogs),
+    date: "May 2024 - January 2025",
   },
   {
     title: "Masters in Applied Computer Science",
@@ -66,23 +74,31 @@ export const experiencesData = [
     description:
       "As a Student Engagement Ambassador at the Digital Engagement Centre, Office of Advancement, Dalhousie University, I successfully raised $65,000 by engaging with alumni to gather gifts and funds. My role involved fostering relationships with past students, promoting student funding, and encouraging continued support for the university. Additionally, I serve as a Teaching Assistant for CSCI 5100, where I help bridge the gap for students in effective communication and formal writing.",
     icon: React.createElement(FaGraduationCap),
-    date: "Sep. 2023 - present",
+    date: "September 2023 - May 2025",
   },
   {
-    title: "Puppet Academy (SaySo Communications)",
-    location: "Halifax, Canada",
+    title: "Software Engineer",
+    location: "BosLeo, India",
     description:
-      "As a Solutions Architect, I automated backend infrastructure using Terraform on AWS, enhancing scalability and reliability through Infrastructure as Code (IaC). I developed the frontend for the Puppet Academy application with Next.js, creating a responsive user interface for performance insights. I optimized CI/CD pipelines for both frontend and backend, using AWS Amplify and GitLab runners on EC2, respectively. This streamlined deployment workflows, reduced errors, and improved release speed. Additionally, I managed and scaled the Puppet Academy website on EC2, ensuring high availability and performance during peak times.",
-    icon: React.createElement(FaCogs),
-    date: "May. 2024 - present",
+      "I played a key role in developing a Healthcare Information System focused on patient data. Utilizing TypeScript and the Angular framework, I optimized user interfaces for seamless interaction with backend responses, resulting in a 30% reduction in HTTP calls. Actively participating in code reviews, I received valuable feedback on coding standards and best practices, while also ensuring clear and organized documentation for project comprehension and future reference.",
+    icon: React.createElement(FaAngular),
+    date: "January 2023 - July 2023",
   },
   {
-    title: "Nova Scotia Health Authority",
-    location: "Halifax, Canada",
+    title: "Software Engineer",
+    location: "Infogain, India",
     description:
-        "As a Data Engineer, I work as a bridge between teams, participating in the development of workflows that include predictive models and production pipelines to generate different types of forecasts. I enable interactivity through the development of an efficient front-end that collects inputs from the end users and presents results produced by predictive models.",
-    icon: React.createElement(FaDatabase),
-    date: "Jan. 2024 - present",
+      "I completed comprehensive training as a software engineer trainee, specializing in SQL, JAVA, Angular, React, Cloud computing, Blockchain, and Testing. In my role on the Riverbed support project, I excelled as a Java developer, enhancing the support portal by adding new features and resolving bugs, ensuring smooth operation and minimizing downtime for clients. I engaged directly with clients to understand their requirements, maintaining clear communication and providing timely updates on project progress. Additionally, I actively contributed to code reviews, offering valuable insights to improve the overall quality and performance of the support portal.",
+    icon: React.createElement(FaJava),
+    date: "July 2021 - January 2023",
+  },
+  {
+    title: "Bachelor of Technology Information Technology",
+    location: "NMIMS University, India",
+    description:
+      "I achieved Second Place and earned a Certificate of Honour in the 2017–21 Bachelor of Technology Information Technology cohort. Additionally, I received a Merit Certificate for being in the list of meritorious students.",
+    icon: React.createElement(FaGraduationCap),
+    date: "September 2017 - March 2021",
   },
 ] as const;
 
