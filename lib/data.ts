@@ -1,5 +1,5 @@
 import React from "react";
-import {FaAngular, FaGraduationCap, FaJava, FaCogs, FaDatabase, FaServer, FaSort, FaNode, FaHatCowboy} from "react-icons/fa";
+import {FaAngular, FaGraduationCap, FaJava, FaCogs, FaDatabase, FaServer, FaSort, FaNode, FaHatCowboy, FaLandmark} from "react-icons/fa";
 import awsLambdaGenerator from "@/public/aws-lambda-generator.png"
 import simmerprofile from "@/public/simmerprofile.png";
 import lightweigthDBMS from "@/public/lightweight-dbms.png";
@@ -37,12 +37,20 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Government of Nova Scotia",
+    location: "Halifax, Canada",
+    description:
+      "As a Computer Services Officer 3, I handled provincial services on emerging platforms including NS Forms, NS Pay, and NS Notify.",
+    icon: React.createElement(FaLandmark),
+    date: "March 2026 - April 2026",
+  },
+  {
     title: "EasyPlatter",
     location: "Halifax, Canada",
     description:
       "As a Software Engineer, I built on‑prem n8n voice agents (Node.js, WebRTC, OpenAI) for FAQs, health coaching, and HR screening, reducing support response time by 60%. Automated 80% of regression testing with an autonomous QA agent and improved recipe discovery by 45% using Elasticsearch with custom analyzers and fuzzy matching.",
     icon: React.createElement(FaCogs),
-    date: "July 2025 - Present",
+    date: "July 2025 - March 2026",
   },
   {
     title: "StarLuv",
@@ -50,7 +58,7 @@ export const experiencesData = [
     description:
       "As a Back End developer, I built a personalized recommendation engine using OpenSearch Client with OpenAI, resulting in customized clothing suggestions and improved user engagement  by 40%.",
     icon: React.createElement(FaServer),
-    date: "May 2025 - Present",
+    date: "May 2025 - April 2026",
   },
   {
     title: "Nova Scotia Health Authority",
